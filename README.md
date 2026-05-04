@@ -1,4 +1,4 @@
-# ⚛️ Quantum Resource Estimator
+# ⚛️ Resourca - Quantum Resource Estimator
 
 A clean, minimal tool to estimate **quantum resources** (qubits, runtime, error correction overhead, etc.) for your Q# programs
 
@@ -28,7 +28,6 @@ This project uses Q#'s built-in resource estimation to give you:
 ```
 
 > ⚠️ **Important:** The Q# file you want to estimate **must be placed inside the `src/` folder**.
-> The estimator expects your quantum code to live there — otherwise it won’t find it and will just sit there judging you silently.
 
 ---
 
@@ -100,18 +99,6 @@ QEC Scheme      : surface_code
 ## 🤝 Contributing
 
 Pull requests welcome. If you can reduce qubit counts by 10x, you’re basically a wizard.
-
----
-
-## 🧾 TL;DR
-
-1. Put your Q# file in `src/`
-2. Define your operation
-3. Run:
-
-```bash
-python estresources.py
-```
 
 ---
 
